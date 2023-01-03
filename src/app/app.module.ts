@@ -7,6 +7,7 @@ import { CustomerComponent } from './components/customer/customer.component';
 import { ItemComponent } from './components/item/item.component';
 import { OrderComponent } from './components/order/order.component';
 import { PlaceOrderComponent } from './components/place-order/place-order.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PlaceOrderComponent } from './components/place-order/place-order.compon
     CustomerComponent,
     ItemComponent,
     OrderComponent,
-    PlaceOrderComponent
+    PlaceOrderComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
