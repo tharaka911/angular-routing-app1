@@ -7,6 +7,7 @@ import {PlaceOrderComponent} from "./components/place-order/place-order.componen
 import {NotFoundPageComponent} from "./components/not-found-page/not-found-page.component";
 
 const routes: Routes = [
+  {path:'', redirectTo:'/customer', pathMatch:'full'},
   {path:'customer', component:CustomerComponent},
   {path:'item', component:ItemComponent},
   {path:'order', component:OrderComponent},
