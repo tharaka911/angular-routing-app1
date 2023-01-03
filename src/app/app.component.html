@@ -1,10 +1,16 @@
 <h2>This is the main component which initially created by Angular CLI</h2>
 <br>
 <div class="nav-bar">
-  <button routerLinkActive="active"  class="btn btn-warning" routerLink="/customer" >Customer</button>
-  <button routerLinkActive="active" class="btn btn-info" routerLink="/item">Items</button>
-  <button routerLinkActive="active" class="btn btn-warning" routerLink="/order">Order</button>
-  <button routerLinkActive="active" class="btn btn-info" routerLink="/place-order">Place order</button>
+  <div>
+    <h3><span class="badge bg-secondary icon" (click)="navigateToTheLinkA('/place-order')"> quickly go to the place order </span></h3>
+    <h3><span class="badge bg-secondary icon" (click)="navigateToTheLinkB('/item')"> quickly go to the Item </span></h3>
+  </div>
+  <div>
+    <button routerLinkActive="active"  class="btn btn-warning" routerLink="/customer">Customer</button>
+    <button routerLinkActive="active" class="btn btn-info" routerLink="/item" >Items</button>
+    <button routerLinkActive="active" class="btn btn-warning" routerLink="/order" >Order</button>
+    <button routerLinkActive="active" class="btn btn-info" routerLink="/place-order" >Place order</button>
+  </div>
 </div>
 
 

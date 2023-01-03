@@ -5,9 +5,12 @@
 
 button{
   width:150px ;
+  margin-right:16px;
 }
 
 .active{
   background-color: darkblue;
   color: white;
+}
+.icon{ cursor: pointer;
 }
